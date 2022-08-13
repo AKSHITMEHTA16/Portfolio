@@ -1,0 +1,341 @@
+body{ margin: 0px;
+}
+/*Body Header Rules*/
+#BODY_HEADER{
+	background-image: url("img/c.webp");
+	height: 75vh;
+	background-size: cover; 
+	background-attachment: fixed;
+
+}
+.horizontal_list{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+/*alignment in center */
+.text_center{
+	text-align: center;
+}
+/*For horizontal list*/
+.horizontal_list li{
+	display: inline-block;
+	margin: 0px 20px;
+
+}
+/*Horizontal list colour property for anchor tag*/
+.horizontal_list li a{
+	color: white;
+	text-decoration: none;
+	transition: color 1s,border-bottom 5s;
+}
+/*Hover and underlining of nav section */
+.nav-menu li a:hover{
+	color: #F49F1C;
+	border-bottom: 2px solid #F49F1C;
+}
+	
+/*The dessign and colour of only navigation menu*/
+.nav-menu li a{
+	font-size: 1.5rem;
+}
+/*for making name and icons in center we need to set margin */
+#Social_icons{
+	margin-top: 25vh;
+}
+@media screen and (max-width:900px){
+	#Social_icons{
+		margin-top: 10%;
+
+	}
+}
+/*Styling my name */
+#my_name{
+	color: white;
+	font-size: 4rem;
+	letter-spacing:1rem;
+	font-weight: bolder;
+}
+/*styling the social icons */
+.design_social_icon li a i{
+	padding: 10px;
+	font-size: 2rem;
+	border-radius: 50%
+}
+.design_social_icon li a i:hover{
+	color: #F49F1C;
+	box-shadow: 0px 0px 10px 10px;
+}
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+/*for alternate background colours*/
+section:nth-child(2n){
+	background-color: #030E4F;
+}
+section:nth-child(2n+1){
+	background-color: white;
+}
+/*for bottom margin of section heading */
+.mb75px{
+	margin-bottom: 75px;
+}
+.section_heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	font-weight: bolder;
+}
+.section_heading span{
+	color: #F49F1C;
+	font-size: 40px;
+	margin-top: 0.5rem;
+	padding-top: 10px;
+
+}
+/*MAIN PART*/
+/*ABOUT SECTION*/
+#ABOUT{
+	height: auto;
+	width: 100vw;
+	position: relative;
+}
+#my-image{
+	height: 15rem;
+	width: 15rem;
+	margin: auto;
+}
+#my-image img{
+	height:100%;
+	width:100%;
+	border-radius: 50%;
+	margin-top: -17vh;
+	border: 4px solid lightgrey;
+	box-shadow: 0px 0px 10px 10px white;
+}
+
+#aboutpara{
+	color: #9FAFCA;
+	margin: 0% 15%;
+	font-family: cursive; 
+	font-size: 25px;
+	text-align: justify;
+}
+/*skill section */
+.skill-display{
+	width: 70%;
+	/*height: 100px;
+	border: 2px solid black;*/ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+
+}
+.skill-progress{
+	width: 10rem;
+	height: 2rem;
+	background-color: white;
+	border-radius: 1rem;
+	margin: 20px;
+
+}
+.skill-progress>div{
+	border-radius: 30px 0px 0px 30px;
+}
+.eighty-five-percent{
+	height: inherit;
+	width: 85%
+
+}
+.skill-name span{
+	color: white;
+	font-size: 1.2rem;
+	margin-left: 10px;
+	font-family: cursive;
+}
+/*colour class*/
+.mb-blue{
+	background-color: blue;
+}
+.mb-green{
+	background-color: green;
+}
+.mb-yellow{
+	background-color: yellow;
+}
+.mb-orange{
+	background-color: orange;
+}
+.mb-pink{
+	background-color: pink;
+}
+.mb-teal{
+	background-color: teal;
+}
+.mb-darkgreen{
+	background-color: darkgreen;
+}
+/*Project sections */
+.various-projects{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: cursive;
+	font-size: 1.5rem;
+	color: #9FAFEB;
+}
+.img-size a img{
+	height: 15rem;
+	width: 15rem;
+	border: 4px solid #9FAFEB;
+	border-radius: 50%;
+	/*box-shadow: 0px 0px 10px 10px skyblue;*/
+}
+.img-size a img:hover{
+	border: 4px solid #F49F1C;
+	box-shadow: 0px 0px 10px 10px #F49F1C;
+}
+/*achievement section*/
+#ach-border{
+	margin-bottom: 50px;
+}
+.achievements-style li{
+	color: #9FAFEB;
+	font-family: cursive;
+	font-size: 25px;
+	border-left: 4px solid #9FAFEB;
+	padding-left: 10px;
+	list-style: none;
+
+}
+/*Training section */
+.training-style{
+	margin-bottom: 30px;
+}
+.training-style p{
+	margin: 0px;
+	color: #9FAFEB;
+	font-size: 25px;
+	font-family: cursive;
+}
+.training-style a{
+	font-size: 20px;
+	font-family: cursive;
+    color: #9FAFEB;
+}
+.training-style a:hover{
+
+	color:#F49F1C;
+}
+.training-style h2{
+	color: #F49F1C;
+	font-size: 30px;
+	font-family: cursive;
+}
+
+
+.contact-details{
+	color: #9FAFEB;
+	font-family: cursive;
+	padding-bottom:40px;
+	text-align: center;
+
+}
+.contact-details p {
+	font-size: 20px;
+} 
+#Address span{
+	font-size: 25px;
+}
+#number{
+	font-size: 25px;
+}
+#number:hover{
+	color: #F49F1C
+}
+.email:hover{
+	color: #F49F1C;
+}
+.contact-details .email a {
+	color: #9FAFEB !important;
+	font-size: 20px;
+}
+.contact-details .email a:hover{
+	color: #F49F1C !important;
+
+}
+
+#name-style{
+	color: #9FAFEB;
+	font-family: cursive;
+
+}
+
+/*Education Section*/
+.timeline{
+	position: relative;
+	width: 75%;
+	/*border:2px solid black;*/
+}
+.timeline-box{
+	position: relative;
+	margin: 5px;
+	width: 40%;
+	left: 5%;
+	min-height: 150px;
+	/*border:2px solid black;*/
+}
+
+.timeline-box:nth-child(2n){
+	left: 53%;
+}
+.timeline-box h1{
+	color: #F49F1C;
+	font-size: 30px;
+	font-family: cursive;
+}
+.timeline-style p{
+	font-size:25px;
+	font-family: cursive;
+	color: #9FAFEB; 
+
+}
+.timeline-style a{
+	font-size: 25px;
+	color: #9FAFEB;
+	font-family: cursive;
+	/*font-weight: bolder;*/
+}
+.timeline-style a:hover{
+	color: #F49F1C;
+}
+.timeline-divider{
+	position: absolute;
+	height: 75%;
+	width: 0;
+	border: 3px dashed lightgrey;
+	top: 10%;
+	left: 50%;
+}
+@media screen and (max-width: 600px){
+	.timeline-divider{
+		left: 8%;
+	}
+	.timeline-box{
+		left: 15% !important;
+		width: 80%;  
+	}
+	
+}
+.timeline-traveller{
+	position: sticky;
+	top: 20%;
+	transform: rotate(90deg);
+	font-size: 30px;
+
+}
