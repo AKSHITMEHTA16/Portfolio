@@ -2,7 +2,7 @@ body{ margin: 0px;
 }
 /*Body Header Rules*/
 #BODY_HEADER{
-	background-image: url("img/c.webp");
+	background-image: url("./img/c.webp");
 	height: 75vh;
 	background-size: cover; 
 	background-attachment: fixed;
